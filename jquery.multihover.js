@@ -3,10 +3,10 @@ jQuery(document).ready(function($) {
 		var id = $(this).attr('data-multihover-id');
 		switch (e.type) {
 			case 'mouseenter':
-				$('[data-multihover-id="'+id+'"]').addClass('multihover-highligh');
+				$('[data-multihover-id="'+id+'"]').addClass('multihover-highlight');
 				break;
 			case 'mouseleave':
-				$('[data-multihover-id="'+id+'"]').removeClass('multihover-highligh');
+				$('[data-multihover-id="'+id+'"]').removeClass('multihover-highlight');
 				break;
 		}
 	}
